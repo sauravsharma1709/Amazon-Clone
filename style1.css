@@ -1,0 +1,357 @@
+/* To give icons we have to link our code with font awesome */
+/* cdn font awesome is liberary to be attached to our code */
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box; /* it means border and all other stuffs are included in height and width*/
+
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    background-image: url("amazon_logo.jpg");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+
+}
+.border{
+     border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+.adress-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 620px;
+    border-radius: 4px;
+    background-color: rgb(204, 113, 28);
+
+}
+.nav-search:hover{
+    border: 3px solid  rgb(239, 121, 10);;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: centre;
+    height: 42px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    height: 40px;
+    width: 100%;
+    border: none;
+
+}
+
+.search-icon{
+    
+    height: 50px;
+    width: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-origin: padding-box;
+    border: none;
+    margin: none;
+}
+
+.nav-language{
+    display: flex;
+    margin: 20px;
+}
+.language-icon{
+    margin: 5px;
+}
+.text-first{
+    font-size: 14px;
+}
+.text-second{
+    color: white;
+    background-color:#0F1111 ;
+    border: none;
+    font-size: 18px;
+    font-weight: 700px;
+}
+.nav-return{
+    margin: 10px;
+}
+
+.nav-cart{
+    display: flex;
+    margin: 10px;
+}
+
+.cart-icon{
+    font-size: 20px;
+}
+.pannel-all{
+    color: white;
+    margin: 10px;
+}
+.pannel{
+    background-color: #181a1a;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.pannel-option{
+    margin: 10px;
+
+}
+.para{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+.blank{
+    width: 450px;
+}
+.deals{
+    color: white;
+}
+
+.hero-section{
+    margin-top: 1px;
+    background-image: url(Hero_image.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+    
+}
+.greet{
+    font-size: 14px;
+    height: 40px;
+    width: 960px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+   background-color: rgb(222, 226, 230);
+   margin-bottom: 50px;
+   
+}
+.box{
+    background-color: white;
+    
+    height: 300px;
+    width: 23%;   
+    padding: 20px 0px 15px;     
+    margin-top: 15px;                                     
+}
+
+.box1-img{
+    background-image: url(box1_image.jpg);
+    height: 220px;
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box2-img{
+    background-image: url("box2_image.jpg");
+    height: 220px;
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box3-img{
+    background-image: url("box3_image.jpg");
+    height: 220px;
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box4-img{
+    background-image: url(box4_image.jpg);
+    height: 215px;
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box5-img{
+    background-image: url("box5_image.jpg");
+    height: 215px;
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.box6-img{
+    background-image: url("box6_image.jpg");
+    height: 215px;
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.box7-img{
+    background-image: url(box7_image.jpg);
+    height: 215px;
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.box8-img{
+    background-image: url("box8_image.jpg");
+    height: 215px;
+    background-size: contain;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.shop-text1{
+    color: rgb(109, 216, 109);
+}
+footer{
+    margin-top: 15px;
+    height: 200px;
+}
+
+
+
+
+.foot-pannel1{
+    
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+
+.foot-pannel2{
+    background-color: #222f3d;
+ color: white;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.foot-text{
+    color: rgb(247, 246, 246);
+    text-decoration: none;
+}
+
+ ul a{     /*  special way of giving style to anchor tag of ul */
+   display: block;
+   font-size: 0.85rem;
+   margin-top: 10px;
+   color: #dddddd;
+}
+
+.foot-pannel3{
+    height: 70px;
+    margin-top: 1px;
+    border-top: 1px solid rgb(8, 8, 8);
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-pannel4{
+    font-size: 0.7rem;
+    height: 80px;
+    background-color: #37475a;
+    text-align: center;
+    
+}
+
+.foot-text{
+    margin: 5px;
+}
+.pages{
+    padding-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
